@@ -1,0 +1,338 @@
+﻿section,error_type,count,index,Predicted Normal,Predicted Toxic,text,true_label,prediction,Normal_probability,Toxic_probability,max_probability,correct
+error_summary,False Positive,17.0,,,,,,,,,,
+error_summary,False Negative,17.0,,,,,,,,,,
+confusion_matrix,,,Actual Normal,105.0,17.0,,,,,,,
+confusion_matrix,,,Actual Toxic,17.0,105.0,,,,,,,
+prediction_probability,,,,,,ไม่เป็นไรจริง ๆ แพ้ไฟต์เดียวไม่จบเกม,Normal,Toxic,0.38461538461538464,0.6153846153846154,0.6153846153846154,False
+prediction_probability,,,,,,กูจะเปิดทางให้เดินออก,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,ไม่เป็นไร รอบหน้าเอาใหม่,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,ไอ้ทางเข้าป่ามี trap อยู่,Normal,Normal,0.9230769230769231,0.07692307692307693,0.9230769230769231,True
+prediction_probability,,,,,,ขอบคุณที่รอทีมก่อนเข้าไฟต์,Normal,Normal,0.8461538461538461,0.15384615384615385,0.8461538461538461,True
+prediction_probability,,,,,,ขอบคุณที่ทำให้ศัตรูมั่นใจขึ้น,Toxic,Normal,0.6153846153846154,0.38461538461538464,0.6153846153846154,False
+prediction_probability,,,,,,เล่นเหมือนตั้งใจให้แพ้,Toxic,Toxic,0.0,1.0,1.0,True
+prediction_probability,,,,,,ช่วยทีมไม่ได้ก็อย่าทำให้แย่ลง,Toxic,Toxic,0.15384615384615385,0.8461538461538461,0.8461538461538461,True
+prediction_probability,,,,,,ไม่ต้องแก้ตัว ฝีมือมันฟ้องอยู่แล้ว,Toxic,Normal,0.5384615384615384,0.46153846153846156,0.5384615384615384,False
+prediction_probability,,,,,,คุมพื้นที่ตรงนี้ไว้ก่อน,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,เหมือนไม่ได้คิดก่อนกดสกิลเลย,Toxic,Toxic,0.38461538461538464,0.6153846153846154,0.6153846153846154,True
+prediction_probability,,,,,,กดอะไรก็พลาดไปหมด น่าทึ่งจริง,Toxic,Toxic,0.07692307692307693,0.9230769230769231,0.9230769230769231,True
+prediction_probability,,,,,,ไม่ต้องรีบ เรารอสวนดีกว่า,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,ระวังตรง river เขาน่าจะมี vision,Normal,Normal,0.8461538461538461,0.15384615384615385,0.8461538461538461,True
+prediction_probability,,,,,,ไอ้ objective นี้ปล่อยได้ ถ้าเสี่ยงเกินไป,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,แบกทีมฝั่งตรงข้ามสุด ๆ,Toxic,Toxic,0.07692307692307693,0.9230769230769231,0.9230769230769231,True
+prediction_probability,,,,,,ค่อย ๆ เล่นไป เกมยังไม่จบ,Normal,Toxic,0.46153846153846156,0.5384615384615384,0.5384615384615384,False
+prediction_probability,,,,,,เล่นแบบนี้ทีมเหนื่อยทุกไฟต์,Toxic,Toxic,0.0,1.0,1.0,True
+prediction_probability,,,,,,ไอ้ภาระทีม,Toxic,Toxic,0.07692307692307693,0.9230769230769231,0.9230769230769231,True
+prediction_probability,,,,,,มึงทำให้คำว่า teamwork ดูเศร้า,Toxic,Toxic,0.0,1.0,1.0,True
+prediction_probability,,,,,,ปัญญาอ่อนปะ จังหวะนั้นยังเข้าอีก,Toxic,Normal,1.0,0.0,1.0,False
+prediction_probability,,,,,,จังหวะนั้นคือผลงานระดับตำนานจริง ๆ ตำนานทีมพัง,Toxic,Toxic,0.0,1.0,1.0,True
+prediction_probability,,,,,,ดีมากที่ไม่ฝืนเข้าไฟต์นั้น,Normal,Toxic,0.46153846153846156,0.5384615384615384,0.5384615384615384,False
+prediction_probability,,,,,,ขอบคุณที่ช่วยอีกฝั่งนะ เล่นแบบนี้เขาคงยิ้มเลย,Toxic,Normal,0.6923076923076923,0.3076923076923077,0.6923076923076923,False
+prediction_probability,,,,,,จะเข้าก็พัง จะถอยก็ช้า,Toxic,Normal,1.0,0.0,1.0,False
+prediction_probability,,,,,,มึงถอยมาหลังป้อมก่อน,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,กูเหนื่อยกับคนเล่นแบบมึงจริง ๆ,Toxic,Toxic,0.0,1.0,1.0,True
+prediction_probability,,,,,,ถ้าทีมแพ้ก็ไม่ต้องสงสัยสาเหตุ,Toxic,Toxic,0.07692307692307693,0.9230769230769231,0.9230769230769231,True
+prediction_probability,,,,,,ลองรวมกันดันกลางดูไหม,Normal,Normal,0.8461538461538461,0.15384615384615385,0.8461538461538461,True
+prediction_probability,,,,,,ขอบคุณที่พิสูจน์ว่าทีมเราเล่นสี่คนก็จริง,Toxic,Toxic,0.38461538461538464,0.6153846153846154,0.6153846153846154,True
+prediction_probability,,,,,,กูจะกลับบ้านซื้อของก่อน,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,เราเสียป้อมได้ แต่อย่าเสียคนเพิ่ม,Normal,Toxic,0.3076923076923077,0.6923076923076923,0.6923076923076923,False
+prediction_probability,,,,,,ช่วยทีมด้วยการหยุดแจกก่อน,Toxic,Toxic,0.0,1.0,1.0,True
+prediction_probability,,,,,,ช่วยดันเลนล่างหน่อย เดี๋ยวกูดันบน,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,ตำแหน่งนี้ไม่เหมาะกับคนเล่นแบบนี้,Toxic,Toxic,0.0,1.0,1.0,True
+prediction_probability,,,,,,มึงอย่าแยกไกล เดี๋ยวโดนจับ,Normal,Toxic,0.23076923076923078,0.7692307692307693,0.7692307692307693,False
+prediction_probability,,,,,,มึงฟาร์มต่อก่อน เดี๋ยวทีมกันบ้านให้,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,ดูแล้วรู้เลยว่าไม่เคยฝึก,Toxic,Toxic,0.07692307692307693,0.9230769230769231,0.9230769230769231,True
+prediction_probability,,,,,,เรายังมีจังหวะสวนตอนเขาพลาด,Normal,Normal,0.6153846153846154,0.38461538461538464,0.6153846153846154,True
+prediction_probability,,,,,,สุดยอดจริง ๆ ทีมมีห้าคนเหมือนมีสี่,Toxic,Toxic,0.07692307692307693,0.9230769230769231,0.9230769230769231,True
+prediction_probability,,,,,,ขอบคุณที่ช่วยไฟต์เมื่อกี้นะ,Normal,Normal,0.7692307692307693,0.23076923076923078,0.7692307692307693,True
+prediction_probability,,,,,,ขอบคุณที่เปิดทางให้เขา push ฟรี,Toxic,Toxic,0.23076923076923078,0.7692307692307693,0.7692307692307693,True
+prediction_probability,,,,,,โอเค เดี๋ยวตามไปหลังจากเคลียร์เวฟ,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,มึงพักฟาร์มก่อน เดี๋ยวเขาจะ dive,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,ถ้าเดินมั่วแบบนี้อย่าเรียกว่ากลยุทธ์,Toxic,Toxic,0.07692307692307693,0.9230769230769231,0.9230769230769231,True
+prediction_probability,,,,,,ถอยมาตั้งหลักก่อนค่อยเอาใหม่,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,ช่วยกันป้องกันบ้านก่อน,Normal,Normal,0.9230769230769231,0.07692307692307693,0.9230769230769231,True
+prediction_probability,,,,,,ไอ้บอสตัวนี้ต้องรอทีมครบก่อนค่อยตี,Normal,Normal,0.9230769230769231,0.07692307692307693,0.9230769230769231,True
+prediction_probability,,,,,,ยืนตำแหน่งได้แย่จนเขาไม่ต้องพยายาม,Toxic,Toxic,0.15384615384615385,0.8461538461538461,0.8461538461538461,True
+prediction_probability,,,,,,กูจะ ward ให้ก่อนค่อยเข้า,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,จังหวะนี้เขาได้เปรียบ เราถอยก่อน,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,ถอยก่อนนะ ของเรายังไม่พร้อม,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,ตัดสินใจได้แย่มากทุกไฟต์,Toxic,Toxic,0.0,1.0,1.0,True
+prediction_probability,,,,,,ค่อย ๆ ดัน ไม่ต้องเสี่ยงปิดเกมตอนนี้,Normal,Normal,0.5384615384615384,0.46153846153846156,0.5384615384615384,True
+prediction_probability,,,,,,มึงทำดีแล้วจริง ๆ แค่จังหวะนั้นเขามาเร็ว,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,มึงอย่าเพิ่งเข้า เดี๋ยวกูตามไปเปิดให้,Normal,Normal,0.9230769230769231,0.07692307692307693,0.9230769230769231,True
+prediction_probability,,,,,,ขอบคุณที่ยอมสลับตำแหน่งนะ,Normal,Normal,0.8461538461538461,0.15384615384615385,0.8461538461538461,True
+prediction_probability,,,,,,มึงยืนตำแหน่งนี้ปลอดภัยกว่า,Normal,Normal,0.7692307692307693,0.23076923076923078,0.7692307692307693,True
+prediction_probability,,,,,,แจกไม่หยุดเลยนะ เก่งจริง,Toxic,Toxic,0.46153846153846156,0.5384615384615384,0.5384615384615384,True
+prediction_probability,,,,,,ความสามารถช่วยทีมติดลบมาก,Toxic,Toxic,0.0,1.0,1.0,True
+prediction_probability,,,,,,กูจะไปซัพพอร์ตกลางก่อน,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,มีมึงอยู่ทีมก็เหมือนเริ่มเกมติดลบ,Toxic,Toxic,0.0,1.0,1.0,True
+prediction_probability,,,,,,กูพลาดไฟต์เมื่อกี้เอง รอบหน้าเล่นใหม่,Normal,Normal,0.9230769230769231,0.07692307692307693,0.9230769230769231,True
+prediction_probability,,,,,,โง่ขนาดนี้ยังกล้ากด rank อีกเหรอ,Toxic,Toxic,0.0,1.0,1.0,True
+prediction_probability,,,,,,เล่นดีมาก ดีจน report อยากทำงาน,Toxic,Normal,0.8461538461538461,0.15384615384615385,0.8461538461538461,False
+prediction_probability,,,,,,ช่วยเก็บ vision ฝั่งเราให้หน่อย,Normal,Normal,0.9230769230769231,0.07692307692307693,0.9230769230769231,True
+prediction_probability,,,,,,เลนบนต้องการคนช่วยนิดหนึ่ง,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,สุดจัด เล่นให้เขาชนะง่ายขึ้น,Toxic,Toxic,0.46153846153846156,0.5384615384615384,0.5384615384615384,True
+prediction_probability,,,,,,มึงเปิดดีแล้ว แต่ follow ไม่ทัน,Normal,Normal,0.6153846153846154,0.38461538461538464,0.6153846153846154,True
+prediction_probability,,,,,,ช่วย cover หลังให้หน่อย,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,ทีมต้องแบกคนเดียวไม่พอ ยังต้องแบกมึงด้วย,Toxic,Toxic,0.0,1.0,1.0,True
+prediction_probability,,,,,,ไอ้ป้อมนี้ยังไม่ต้องตี รอ wave ก่อน,Normal,Normal,0.5384615384615384,0.46153846153846156,0.5384615384615384,True
+prediction_probability,,,,,,ถ้าเลนบนไม่ไหว เดี๋ยวเรา swap กัน,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,คุมเกมได้อยู่ แค่อย่ารีบปิด,Normal,Normal,0.6153846153846154,0.38461538461538464,0.6153846153846154,True
+prediction_probability,,,,,,ไม่เป็นไร แค่ปรับตำแหน่งยืนใหม่,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,ถ้าจะช่วยแบบนี้ไม่ช่วยยังดีกว่า,Toxic,Toxic,0.15384615384615385,0.8461538461538461,0.8461538461538461,True
+prediction_probability,,,,,,พลาดนิดเดียวเอง เล่นต่อได้,Normal,Normal,0.7692307692307693,0.23076923076923078,0.7692307692307693,True
+prediction_probability,,,,,,มึงไม่ผิดหรอก จังหวะนั้นเขาซ้อนดี,Normal,Normal,0.9230769230769231,0.07692307692307693,0.9230769230769231,True
+prediction_probability,,,,,,ไอ้ตัวป่าฝั่งนั้นหายไป ระวังเลนบนด้วย,Normal,Normal,0.6923076923076923,0.3076923076923077,0.6923076923076923,True
+prediction_probability,,,,,,ไอ้คนแจกบัฟให้ศัตรู,Toxic,Toxic,0.23076923076923078,0.7692307692307693,0.7692307692307693,True
+prediction_probability,,,,,,มึงควรดู replay แล้วอายตัวเองบ้าง,Toxic,Normal,0.5384615384615384,0.46153846153846156,0.5384615384615384,False
+prediction_probability,,,,,,เล่นได้สม่ำเสมอมาก สม่ำเสมอในการแจก,Toxic,Toxic,0.15384615384615385,0.8461538461538461,0.8461538461538461,True
+prediction_probability,,,,,,ไม่ต้องเครียด เกมนี้ยังกลับมาได้,Normal,Normal,0.5384615384615384,0.46153846153846156,0.5384615384615384,True
+prediction_probability,,,,,,เห็นแล้วปวดหัวกับการเล่นของมึง,Toxic,Toxic,0.0,1.0,1.0,True
+prediction_probability,,,,,,ขอบคุณที่ทำให้ทุกคนรู้ว่าทีมเราเสียเปรียบตรงไหน,Toxic,Toxic,0.3076923076923077,0.6923076923076923,0.6923076923076923,True
+prediction_probability,,,,,,ขอบคุณที่ไม่ฝืนไฟต์เมื่อกี้,Normal,Normal,0.6923076923076923,0.3076923076923077,0.6923076923076923,True
+prediction_probability,,,,,,ขอบคุณที่ ping เตือนเมื่อกี้,Normal,Normal,0.6923076923076923,0.3076923076923077,0.6923076923076923,True
+prediction_probability,,,,,,ความเสียหายที่มึงทำมากกว่าศัตรูอีก,Toxic,Toxic,0.3076923076923077,0.6923076923076923,0.6923076923076923,True
+prediction_probability,,,,,,เล่นไม่เป็นก็อย่ามาทำคนอื่นเสียเวลา,Toxic,Toxic,0.15384615384615385,0.8461538461538461,0.8461538461538461,True
+prediction_probability,,,,,,เอาแบบปลอดภัยก่อนดีกว่า,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,เล่นดีมาก ดีสำหรับทีมตรงข้าม,Toxic,Toxic,0.23076923076923078,0.7692307692307693,0.7692307692307693,True
+prediction_probability,,,,,,กูพลาดตำแหน่งเอง ไม่เกี่ยวกับทีม,Normal,Toxic,0.3076923076923077,0.6923076923076923,0.6923076923076923,False
+prediction_probability,,,,,,เดินไปตายแบบมีระบบมาก,Toxic,Toxic,0.0,1.0,1.0,True
+prediction_probability,,,,,,เดินไปให้เขาเก็บเหมือนมีภารกิจส่วนตัว,Toxic,Toxic,0.38461538461538464,0.6153846153846154,0.6153846153846154,True
+prediction_probability,,,,,,กูขอโทษนะเมื่อกี้กดสกิลพลาด,Normal,Toxic,0.15384615384615385,0.8461538461538461,0.8461538461538461,False
+prediction_probability,,,,,,นี่คือเล่นเต็มที่แล้วใช่ไหม,Toxic,Toxic,0.46153846153846156,0.5384615384615384,0.5384615384615384,True
+prediction_probability,,,,,,ไม่ต้องมาเล่นตำแหน่งนี้อีกนะ,Toxic,Toxic,0.23076923076923078,0.7692307692307693,0.7692307692307693,True
+prediction_probability,,,,,,ช่วยกัน clear wave ก่อนนะ,Normal,Normal,0.9230769230769231,0.07692307692307693,0.9230769230769231,True
+prediction_probability,,,,,,กูว่ารอของชิ้นต่อไปก่อนดีกว่า,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,ขอบคุณที่ทำให้เกมง่ายสำหรับอีกฝั่ง,Toxic,Toxic,0.15384615384615385,0.8461538461538461,0.8461538461538461,True
+prediction_probability,,,,,,สุดยอดมาก แจก kill พร้อมบริการถึงที่,Toxic,Toxic,0.38461538461538464,0.6153846153846154,0.6153846153846154,True
+prediction_probability,,,,,,กูจะไปช่วยเลนล่างหลังเคลียร์ครีป,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,นี่ตั้งใจเล่นจริงไหม หรือแค่กดเข้ามาให้ครบคน,Toxic,Toxic,0.38461538461538464,0.6153846153846154,0.6153846153846154,True
+prediction_probability,,,,,,ไม่ต้องสั่งทีม ถ้าตัวเองยังเล่นไม่รอด,Toxic,Toxic,0.07692307692307693,0.9230769230769231,0.9230769230769231,True
+prediction_probability,,,,,,คนอื่นเขาแบกจนเหนื่อยแล้วนะ,Toxic,Toxic,0.0,1.0,1.0,True
+prediction_probability,,,,,,กดสกิลเหมือนหลับอยู่,Toxic,Toxic,0.07692307692307693,0.9230769230769231,0.9230769230769231,True
+prediction_probability,,,,,,เล่นห่วยจนทีมต้องรับกรรม,Toxic,Toxic,0.0,1.0,1.0,True
+prediction_probability,,,,,,จังหวะเมื่อกี้เกือบสวยแล้ว,Normal,Normal,0.9230769230769231,0.07692307692307693,0.9230769230769231,True
+prediction_probability,,,,,,มีประโยชน์มาก ยืนดูจนทีมตายหมด,Toxic,Toxic,0.07692307692307693,0.9230769230769231,0.9230769230769231,True
+prediction_probability,,,,,,ไม่เป็นไรนะ เล่นต่อให้จบก่อน,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,มึงช่วยอยู่ตรงไหน ช่วยบอกที,Toxic,Normal,0.8461538461538461,0.15384615384615385,0.8461538461538461,False
+prediction_probability,,,,,,ดีนะมีมึง เกมเลยท้าทายแบบไม่จำเป็น,Toxic,Toxic,0.46153846153846156,0.5384615384615384,0.5384615384615384,True
+prediction_probability,,,,,,เดินแบบนี้คือเชิญเขามาฆ่าฟรี,Toxic,Toxic,0.0,1.0,1.0,True
+prediction_probability,,,,,,อยู่เฉย ๆ ยังช่วยทีมมากกว่านี้,Toxic,Toxic,0.23076923076923078,0.7692307692307693,0.7692307692307693,True
+prediction_probability,,,,,,อย่าตามลึกนะ เดี๋ยวโดนสวน,Normal,Normal,0.9230769230769231,0.07692307692307693,0.9230769230769231,True
+prediction_probability,,,,,,พลาดครั้งเดียวไม่ว่า แต่นี่ทั้งเกม,Toxic,Toxic,0.0,1.0,1.0,True
+prediction_probability,,,,,,ฝีมือแบบนี้อย่าพิมพ์สอนคนอื่น,Toxic,Toxic,0.07692307692307693,0.9230769230769231,0.9230769230769231,True
+prediction_probability,,,,,,เอาใหม่รอบหน้า เรารู้จังหวะเขาแล้ว,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,เลนกลางหาย ระวังโดนล้วง,Normal,Normal,0.7692307692307693,0.23076923076923078,0.7692307692307693,True
+prediction_probability,,,,,,ถ้าไม่พร้อมก็ไม่ควรกดมาให้คนอื่นเสียเวลา,Toxic,Toxic,0.23076923076923078,0.7692307692307693,0.7692307692307693,True
+prediction_probability,,,,,,ตัวเองพลาดแล้วยังจะโทษคนอื่นอีก,Toxic,Toxic,0.38461538461538464,0.6153846153846154,0.6153846153846154,True
+prediction_probability,,,,,,ถ้าเล่นได้แค่นี้อย่าฝืนเลย,Toxic,Toxic,0.15384615384615385,0.8461538461538461,0.8461538461538461,True
+prediction_probability,,,,,,คิดว่าตัวเองช่วยทีมอยู่เหรอ,Toxic,Toxic,0.23076923076923078,0.7692307692307693,0.7692307692307693,True
+prediction_probability,,,,,,ขอบคุณสำหรับ call เมื่อกี้,Normal,Normal,0.6153846153846154,0.38461538461538464,0.6153846153846154,True
+prediction_probability,,,,,,เล่นเหมือนเพิ่งเคยจับเมาส์,Toxic,Toxic,0.46153846153846156,0.5384615384615384,0.5384615384615384,True
+prediction_probability,,,,,,ไอ้ตัวล้วงมันรอหลังไฟต์ ระวังด้วย,Normal,Normal,0.7692307692307693,0.23076923076923078,0.7692307692307693,True
+prediction_probability,,,,,,อย่าหยิบตำแหน่งนี้อีกถ้ายังเล่นแบบนี้,Toxic,Toxic,0.23076923076923078,0.7692307692307693,0.7692307692307693,True
+prediction_probability,,,,,,เล่นแย่แล้วยังมั่นใจอีก,Toxic,Toxic,0.0,1.0,1.0,True
+prediction_probability,,,,,,วันนี้เล่นตึงจริง แต่ยังมีลุ้น,Normal,Normal,0.7692307692307693,0.23076923076923078,0.7692307692307693,True
+prediction_probability,,,,,,มึงไม่เคยดูแมพเลยใช่ไหม,Toxic,Toxic,0.15384615384615385,0.8461538461538461,0.8461538461538461,True
+prediction_probability,,,,,,ไอ้จุดนี้เขาซุ่มบ่อย ระวัง,Normal,Normal,0.8461538461538461,0.15384615384615385,0.8461538461538461,True
+prediction_probability,,,,,,ทั้งเกมมีประโยชน์ตรงไหนบ้าง,Toxic,Toxic,0.23076923076923078,0.7692307692307693,0.7692307692307693,True
+prediction_probability,,,,,,ถ้าจะเดินแจกขนาดนี้ บอกทีมก่อนก็ได้,Toxic,Toxic,0.3076923076923077,0.6923076923076923,0.6923076923076923,True
+prediction_probability,,,,,,มึงเก่งมาก เก่งเรื่องทำให้ทีมแพ้,Toxic,Toxic,0.38461538461538464,0.6153846153846154,0.6153846153846154,True
+prediction_probability,,,,,,กูจะเปิด vision ก่อน อย่าเพิ่งตามลึก,Normal,Normal,0.8461538461538461,0.15384615384615385,0.8461538461538461,True
+prediction_probability,,,,,,กูเห็นตัวซุ่มแล้ว ระวังพุ่มขวา,Normal,Normal,0.6923076923076923,0.3076923076923077,0.6923076923076923,True
+prediction_probability,,,,,,มึงเป็นตัวถ่วงทีมจริง ๆ,Toxic,Toxic,0.15384615384615385,0.8461538461538461,0.8461538461538461,True
+prediction_probability,,,,,,ทำได้ดีแล้ว แค่ต้องปิด vision เพิ่ม,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,เอา objective ก่อน kill ไม่สำคัญตอนนี้,Normal,Normal,0.8461538461538461,0.15384615384615385,0.8461538461538461,True
+prediction_probability,,,,,,มึงทำให้เกมง่ายกลายเป็นยาก,Toxic,Toxic,0.15384615384615385,0.8461538461538461,0.8461538461538461,True
+prediction_probability,,,,,,อ่านแมพไม่ออกก็อย่าพาทีมพัง,Toxic,Toxic,0.15384615384615385,0.8461538461538461,0.8461538461538461,True
+prediction_probability,,,,,,คุมเลนได้ดีแล้ว เดี๋ยวรอจังหวะไฟต์,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,กูมาแล้ว อย่าเพิ่งแตกทีม,Normal,Normal,0.8461538461538461,0.15384615384615385,0.8461538461538461,True
+prediction_probability,,,,,,ถ้าไม่รู้แผนก็อย่าพาทีมหลง,Toxic,Toxic,0.15384615384615385,0.8461538461538461,0.8461538461538461,True
+prediction_probability,,,,,,ดีมาก เดินไปให้เขาเก็บฟรีอีกแล้ว,Toxic,Toxic,0.3076923076923077,0.6923076923076923,0.6923076923076923,True
+prediction_probability,,,,,,มึงมีสกิลใหญ่ไหม ถ้ามีค่อยเปิด,Normal,Normal,0.7692307692307693,0.23076923076923078,0.7692307692307693,True
+prediction_probability,,,,,,ควรไปฝึกก่อนค่อยกลับมา,Toxic,Toxic,0.15384615384615385,0.8461538461538461,0.8461538461538461,True
+prediction_probability,,,,,,เกมนี้หนักแต่ไม่ถึงกับหมดหวัง,Normal,Toxic,0.3076923076923077,0.6923076923076923,0.6923076923076923,False
+prediction_probability,,,,,,เล่นไม่มีทรงเลยจริง ๆ,Toxic,Toxic,0.0,1.0,1.0,True
+prediction_probability,,,,,,มีคนเดียวที่ทำให้แผนพัง และเขากำลังอ่านแชทนี้อยู่,Toxic,Toxic,0.38461538461538464,0.6153846153846154,0.6153846153846154,True
+prediction_probability,,,,,,กลับไปฝึกกับบอทก่อนเถอะ,Toxic,Normal,0.6923076923076923,0.3076923076923077,0.6923076923076923,False
+prediction_probability,,,,,,ดีแล้วที่ถอย ไม่งั้นเสียสองตัว,Normal,Normal,0.9230769230769231,0.07692307692307693,0.9230769230769231,True
+prediction_probability,,,,,,มึงเล่นโอเคนะ แค่ต้องรอทีมอีกนิด,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,กูจะ bait ให้ ถ้าพร้อมค่อยเข้า,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,ช่วยดูแมพบนให้หน่อย,Normal,Normal,0.9230769230769231,0.07692307692307693,0.9230769230769231,True
+prediction_probability,,,,,,กูเห็นด้วยกับแผนนี้,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,คุมเกมดีแล้ว อย่าให้เขา bait,Normal,Toxic,0.15384615384615385,0.8461538461538461,0.8461538461538461,False
+prediction_probability,,,,,,กูเห็นแล้วว่าเขาซุ่ม ไม่ต้องเข้า,Normal,Normal,0.6153846153846154,0.38461538461538464,0.6153846153846154,True
+prediction_probability,,,,,,ไอ้ตัวนั้นใช้สกิลหนีไปแล้ว เข้าได้,Normal,Normal,0.6153846153846154,0.38461538461538464,0.6153846153846154,True
+prediction_probability,,,,,,ทีมพังเพราะมึงคนเดียว,Toxic,Toxic,0.0,1.0,1.0,True
+prediction_probability,,,,,,คุม tempo ดีแล้ว อย่ารีบเกิน,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,จังหวะเมื่อกี้คือการตัดสินใจที่แย่ที่สุด,Toxic,Toxic,0.07692307692307693,0.9230769230769231,0.9230769230769231,True
+prediction_probability,,,,,,เล่นแบบนี้อย่าเรียกว่าช่วยทีมเลย,Toxic,Toxic,0.0,1.0,1.0,True
+prediction_probability,,,,,,เลนนี้กดดันหนัก เดี๋ยวไปช่วย,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,เก่งมากเลยนะ ตายก่อนทุก objective,Toxic,Toxic,0.46153846153846156,0.5384615384615384,0.5384615384615384,True
+prediction_probability,,,,,,ช่วยอีกฝั่งได้เนียนมาก,Toxic,Toxic,0.3076923076923077,0.6923076923076923,0.6923076923076923,True
+prediction_probability,,,,,,จังหวะนั้นโดนรุม ไม่ใช่ความผิดใคร,Normal,Normal,0.9230769230769231,0.07692307692307693,0.9230769230769231,True
+prediction_probability,,,,,,ขอบคุณนะ เมื่อกี้ช่วยชีวิตไว้เลย,Normal,Normal,0.7692307692307693,0.23076923076923078,0.7692307692307693,True
+prediction_probability,,,,,,เล่นให้ตรงปุ่มก่อนค่อยสอนคนอื่น,Toxic,Normal,0.6923076923076923,0.3076923076923077,0.6923076923076923,False
+prediction_probability,,,,,,ไม่ช่วยแล้วยังสร้างปัญหาอีก,Toxic,Normal,0.9230769230769231,0.07692307692307693,0.9230769230769231,False
+prediction_probability,,,,,,ไอ้ทางซ้ายมีศัตรูสองตัว อย่าเดินคนเดียว,Normal,Toxic,0.3076923076923077,0.6923076923076923,0.6923076923076923,False
+prediction_probability,,,,,,ขอบคุณที่กันหลังให้นะ,Normal,Normal,0.7692307692307693,0.23076923076923078,0.7692307692307693,True
+prediction_probability,,,,,,จังหวะเมื่อกี้สื่อสารช้าไปหน่อย แต่ไม่เป็นไร,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,ออกไปเถอะ อยู่ก็รกทีม,Toxic,Toxic,0.3076923076923077,0.6923076923076923,0.6923076923076923,True
+prediction_probability,,,,,,ไม่มีสมองคิดแผนบ้างเหรอ,Toxic,Toxic,0.23076923076923078,0.7692307692307693,0.7692307692307693,True
+prediction_probability,,,,,,มึงทำหน้าที่ได้ดีแล้ว,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,จังหวะนั้นฉลาดมากเลย เสียหมดทั้งทีม,Toxic,Toxic,0.0,1.0,1.0,True
+prediction_probability,,,,,,เซฟได้สวยมากเมื่อกี้,Normal,Normal,0.6923076923076923,0.3076923076923077,0.6923076923076923,True
+prediction_probability,,,,,,เราเสียไฟต์นี้แต่ยังไม่เสียเกม,Normal,Toxic,0.38461538461538464,0.6153846153846154,0.6153846153846154,False
+prediction_probability,,,,,,ฝั่งนั้นหายสามตัว อย่าแยกกันเดิน,Normal,Normal,0.6153846153846154,0.38461538461538464,0.6153846153846154,True
+prediction_probability,,,,,,ขอบคุณนะ ทีมไฟต์เมื่อกี้ช่วยมาก,Normal,Toxic,0.23076923076923078,0.7692307692307693,0.7692307692307693,False
+prediction_probability,,,,,,เล่นเหมือนไม่รู้ว่าปุ่มไหนทำอะไร,Toxic,Toxic,0.15384615384615385,0.8461538461538461,0.8461538461538461,True
+prediction_probability,,,,,,ขอบคุณมากที่มาเติมเลนกลาง,Normal,Normal,0.8461538461538461,0.15384615384615385,0.8461538461538461,True
+prediction_probability,,,,,,ช่วย ping ตอนเขาหายหน่อยนะ,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,ทำทีมเสียจังหวะทุกครั้งที่เข้าไฟต์,Toxic,Toxic,0.0,1.0,1.0,True
+prediction_probability,,,,,,ถ้าของยังไม่ครบก็รอได้,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,มึงลองไปดันข้าง เดี๋ยวทีมดึงเวลา,Normal,Normal,0.6153846153846154,0.38461538461538464,0.6153846153846154,True
+prediction_probability,,,,,,ไม่ต้องรีบแก้ทุกอย่างในไฟต์เดียว,Normal,Normal,0.5384615384615384,0.46153846153846156,0.5384615384615384,True
+prediction_probability,,,,,,เล่นเหมือนอ่านคู่มือกลับหัว,Toxic,Toxic,0.46153846153846156,0.5384615384615384,0.5384615384615384,True
+prediction_probability,,,,,,มึงคือเหตุผลที่เกมนี้ยืด,Toxic,Toxic,0.3076923076923077,0.6923076923076923,0.6923076923076923,True
+prediction_probability,,,,,,เล่นดีขึ้นเยอะเลยนะ,Normal,Normal,0.6153846153846154,0.38461538461538464,0.6153846153846154,True
+prediction_probability,,,,,,แพ้เพราะใครทุกคนคงรู้,Toxic,Toxic,0.0,1.0,1.0,True
+prediction_probability,,,,,,ไม่ใช่ทุกคนควรกด ranked และมึงคือหลักฐาน,Toxic,Toxic,0.46153846153846156,0.5384615384615384,0.5384615384615384,True
+prediction_probability,,,,,,มึงมาเอาบัฟนี้ได้เลย กูไม่ใช้,Normal,Toxic,0.15384615384615385,0.8461538461538461,0.8461538461538461,False
+prediction_probability,,,,,,อย่าหยิบตัวนี้อีก ทำร้ายทีม,Toxic,Toxic,0.15384615384615385,0.8461538461538461,0.8461538461538461,True
+prediction_probability,,,,,,เกมนี้เราต้องอดทนหน่อย,Normal,Normal,0.7692307692307693,0.23076923076923078,0.7692307692307693,True
+prediction_probability,,,,,,อย่าโทษ lag เลย อันนี้ฝีมือ,Toxic,Toxic,0.46153846153846156,0.5384615384615384,0.5384615384615384,True
+prediction_probability,,,,,,ยืนดูเพื่อนตายได้สงบมาก,Toxic,Toxic,0.46153846153846156,0.5384615384615384,0.5384615384615384,True
+prediction_probability,,,,,,ไอ้จังหวะนี้เราควรรวมทีมมากกว่าแยกดัน,Normal,Toxic,0.38461538461538464,0.6153846153846154,0.6153846153846154,False
+prediction_probability,,,,,,ขอร้องอย่ากดมาเจอทีมอีก,Toxic,Toxic,0.23076923076923078,0.7692307692307693,0.7692307692307693,True
+prediction_probability,,,,,,มึงไปเก็บครีปก่อน เดี๋ยวกูคุมแมพให้,Normal,Normal,0.9230769230769231,0.07692307692307693,0.9230769230769231,True
+prediction_probability,,,,,,ฝึกกับบอทก่อนนะ คนจริงเขาเหนื่อย,Toxic,Toxic,0.0,1.0,1.0,True
+prediction_probability,,,,,,ถอยก่อนก็ได้ ไม่จำเป็นต้องแลก,Normal,Normal,0.9230769230769231,0.07692307692307693,0.9230769230769231,True
+prediction_probability,,,,,,มึงเก็บสกิลไว้กันตัวล้วงนะ,Normal,Normal,0.6923076923076923,0.3076923076923077,0.6923076923076923,True
+prediction_probability,,,,,,ไม่ดีเท่าไรแต่ยังพอแก้ได้,Normal,Normal,0.8461538461538461,0.15384615384615385,0.8461538461538461,True
+prediction_probability,,,,,,มึงไม่ต้องกดดันตัวเองมาก,Normal,Toxic,0.07692307692307693,0.9230769230769231,0.9230769230769231,False
+prediction_probability,,,,,,ทีมไม่ได้ต้องการคนยืนดูเฉย ๆ,Toxic,Toxic,0.15384615384615385,0.8461538461538461,0.8461538461538461,True
+prediction_probability,,,,,,ขอบคุณที่ช่วยลดเวลาชนะของอีกทีม,Toxic,Toxic,0.23076923076923078,0.7692307692307693,0.7692307692307693,True
+prediction_probability,,,,,,ธรรมดาอ่อนมาก ไม่ต้องหาข้ออ้าง,Toxic,Toxic,0.07692307692307693,0.9230769230769231,0.9230769230769231,True
+prediction_probability,,,,,,เล่นแบบนี้ไม่ต้องมีศัตรูก็แพ้ได้,Toxic,Toxic,0.0,1.0,1.0,True
+prediction_probability,,,,,,ไอ้ครีปเวฟนี้ต้องเคลียร์ก่อนบอสเกิด,Normal,Normal,0.9230769230769231,0.07692307692307693,0.9230769230769231,True
+prediction_probability,,,,,,ไม่ธรรมดาจริง ๆ ทำทีมพังได้ต่อเนื่อง,Toxic,Toxic,0.0,1.0,1.0,True
+prediction_probability,,,,,,มึงควรเริ่มจาก tutorial ใหม่,Toxic,Toxic,0.38461538461538464,0.6153846153846154,0.6153846153846154,True
+prediction_probability,,,,,,ขยะทีมชัด ๆ,Toxic,Toxic,0.0,1.0,1.0,True
+prediction_probability,,,,,,ทีมคงชนะง่ายกว่านี้ถ้าไม่มีบางคน,Toxic,Toxic,0.0,1.0,1.0,True
+prediction_probability,,,,,,เรายังนำ objective อยู่ ใจเย็น,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,มึงเล่นเซฟไว้ก่อน เดี๋ยวทีมหมุนไปหา,Normal,Normal,0.8461538461538461,0.15384615384615385,0.8461538461538461,True
+prediction_probability,,,,,,รอบนี้เขาอ่านเกมเราดีจริง,Normal,Normal,0.6153846153846154,0.38461538461538464,0.6153846153846154,True
+prediction_probability,,,,,,จังหวะนี้อย่าเพิ่งเข้า รอคูลดาวน์ก่อน,Normal,Normal,0.7692307692307693,0.23076923076923078,0.7692307692307693,True
+prediction_probability,,,,,,เกมนี้ยากหน่อย แต่ยังแก้ได้,Normal,Toxic,0.3076923076923077,0.6923076923076923,0.6923076923076923,False
+prediction_probability,,,,,,ไอ้บัฟนี้ให้ carry ดีกว่า,Normal,Normal,0.6923076923076923,0.3076923076923077,0.6923076923076923,True
+prediction_probability,,,,,,ไอ้ควายเอ๊ย เล่นอะไรของมึง,Toxic,Toxic,0.0,1.0,1.0,True
+prediction_probability,,,,,,ลองเปลี่ยนแผนไปดันข้างแทนไหม,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,ไอ้จังหวะนั้นควรคิดก่อนกดบ้าง,Toxic,Normal,0.8461538461538461,0.15384615384615385,0.8461538461538461,False
+prediction_probability,,,,,,เล่นแบบนี้ไม่ใช่พลาดแล้ว เรียกว่าทำลายเกม,Toxic,Toxic,0.0,1.0,1.0,True
+prediction_probability,,,,,,ไม่ต้องพูดแผนแล้ว เล่นให้รอดก่อน,Toxic,Toxic,0.3076923076923077,0.6923076923076923,0.6923076923076923,True
+prediction_probability,,,,,,กูไม่ได้ว่าใครนะ แค่ไฟต์นั้นเราเข้าเร็วไป,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,ทั้งเกมทำอะไรเป็นชิ้นเป็นอันบ้าง,Toxic,Toxic,0.0,1.0,1.0,True
+prediction_probability,,,,,,ช่วยกัน ward ตรง objective หน่อย,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,ไฟต์หน้าโฟกัสตัวทำดาเมจก่อนนะ,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,มึงเอาเลนล่างไป เดี๋ยวกูดูมังกร,Normal,Normal,1.0,0.0,1.0,True
+prediction_probability,,,,,,เกมนี้ต้องเล่นช้า ๆ หน่อย,Normal,Normal,0.6923076923076923,0.3076923076923077,0.6923076923076923,True
+prediction_probability,,,,,,เอาจริง ๆ อยู่บ้านยังมีประโยชน์กว่า,Toxic,Normal,0.7692307692307693,0.23076923076923078,0.7692307692307693,False
+prediction_probability,,,,,,ไม่ไหวก็ถอยก่อน เดี๋ยวเสีย objective,Normal,Toxic,0.15384615384615385,0.8461538461538461,0.8461538461538461,False
+prediction_probability,,,,,,ไอ้ตัวนั้นต้องใช้สกิลหยุดก่อนถึงจะจับได้,Normal,Normal,0.8461538461538461,0.15384615384615385,0.8461538461538461,True
+prediction_probability,,,,,,มึงเล่นเหมือนกดมั่วทั้งเกม,Toxic,Toxic,0.3076923076923077,0.6923076923076923,0.6923076923076923,True
+prediction_probability,,,,,,มึงถอยก่อน เดี๋ยวเขาดักหลังพุ่ม,Normal,Normal,0.9230769230769231,0.07692307692307693,0.9230769230769231,True
+prediction_probability,,,,,,เล่นเหมือนตั้งใจให้ทีมฝั่งตรงข้ามได้ไฮไลต์,Toxic,Toxic,0.0,1.0,1.0,True
+prediction_probability,,,,,,มึงทำให้แผนดี ๆ กลายเป็นเรื่องตลก,Toxic,Normal,0.5384615384615384,0.46153846153846156,0.5384615384615384,False
+prediction_probability,,,,,,ช่วยได้มากเลย มากจนทีมเราเสียทุกอย่าง,Toxic,Toxic,0.0,1.0,1.0,True
+prediction_probability,,,,,,ไม่ต้องอธิบายแล้ว ผลงานมันชัดกว่าคำพูด,Toxic,Normal,0.5384615384615384,0.46153846153846156,0.5384615384615384,False
+prediction_probability,,,,,,เดินแบบนี้เหมือนแจกแผนที่ให้ศัตรู,Toxic,Normal,0.7692307692307693,0.23076923076923078,0.7692307692307693,False
+prediction_probability,,,,,,ขอบคุณที่ทำให้ไฟต์ง่ายขึ้นสำหรับอีกฝั่ง,Toxic,Normal,0.6153846153846154,0.38461538461538464,0.6153846153846154,False
+prediction_probability,,,,,,เล่นจนทีมต้องลุ้นว่าศัตรูหรือเพื่อนน่ากลัวกว่า,Toxic,Toxic,0.0,1.0,1.0,True
+wrong_predictions,False Negative,,,,,จะเข้าก็พัง จะถอยก็ช้า,Toxic,Normal,1.0,0.0,1.0,False
+wrong_predictions,False Negative,,,,,ปัญญาอ่อนปะ จังหวะนั้นยังเข้าอีก,Toxic,Normal,1.0,0.0,1.0,False
+wrong_predictions,False Positive,,,,,มึงไม่ต้องกดดันตัวเองมาก,Normal,Toxic,0.07692307692307693,0.9230769230769231,0.9230769230769231,False
+wrong_predictions,False Negative,,,,,ไม่ช่วยแล้วยังสร้างปัญหาอีก,Toxic,Normal,0.9230769230769231,0.07692307692307693,0.9230769230769231,False
+wrong_predictions,False Negative,,,,,ไอ้จังหวะนั้นควรคิดก่อนกดบ้าง,Toxic,Normal,0.8461538461538461,0.15384615384615385,0.8461538461538461,False
+wrong_predictions,False Positive,,,,,มึงมาเอาบัฟนี้ได้เลย กูไม่ใช้,Normal,Toxic,0.15384615384615385,0.8461538461538461,0.8461538461538461,False
+wrong_predictions,False Negative,,,,,มึงช่วยอยู่ตรงไหน ช่วยบอกที,Toxic,Normal,0.8461538461538461,0.15384615384615385,0.8461538461538461,False
+wrong_predictions,False Positive,,,,,คุมเกมดีแล้ว อย่าให้เขา bait,Normal,Toxic,0.15384615384615385,0.8461538461538461,0.8461538461538461,False
+wrong_predictions,False Positive,,,,,กูขอโทษนะเมื่อกี้กดสกิลพลาด,Normal,Toxic,0.15384615384615385,0.8461538461538461,0.8461538461538461,False
+wrong_predictions,False Negative,,,,,เล่นดีมาก ดีจน report อยากทำงาน,Toxic,Normal,0.8461538461538461,0.15384615384615385,0.8461538461538461,False
+wrong_predictions,False Positive,,,,,ไม่ไหวก็ถอยก่อน เดี๋ยวเสีย objective,Normal,Toxic,0.15384615384615385,0.8461538461538461,0.8461538461538461,False
+wrong_predictions,False Negative,,,,,เดินแบบนี้เหมือนแจกแผนที่ให้ศัตรู,Toxic,Normal,0.7692307692307693,0.23076923076923078,0.7692307692307693,False
+wrong_predictions,False Positive,,,,,ขอบคุณนะ ทีมไฟต์เมื่อกี้ช่วยมาก,Normal,Toxic,0.23076923076923078,0.7692307692307693,0.7692307692307693,False
+wrong_predictions,False Negative,,,,,เอาจริง ๆ อยู่บ้านยังมีประโยชน์กว่า,Toxic,Normal,0.7692307692307693,0.23076923076923078,0.7692307692307693,False
+wrong_predictions,False Positive,,,,,มึงอย่าแยกไกล เดี๋ยวโดนจับ,Normal,Toxic,0.23076923076923078,0.7692307692307693,0.7692307692307693,False
+wrong_predictions,False Negative,,,,,เล่นให้ตรงปุ่มก่อนค่อยสอนคนอื่น,Toxic,Normal,0.6923076923076923,0.3076923076923077,0.6923076923076923,False
+wrong_predictions,False Positive,,,,,เกมนี้ยากหน่อย แต่ยังแก้ได้,Normal,Toxic,0.3076923076923077,0.6923076923076923,0.6923076923076923,False
+wrong_predictions,False Negative,,,,,ขอบคุณที่ช่วยอีกฝั่งนะ เล่นแบบนี้เขาคงยิ้มเลย,Toxic,Normal,0.6923076923076923,0.3076923076923077,0.6923076923076923,False
+wrong_predictions,False Positive,,,,,เราเสียป้อมได้ แต่อย่าเสียคนเพิ่ม,Normal,Toxic,0.3076923076923077,0.6923076923076923,0.6923076923076923,False
+wrong_predictions,False Negative,,,,,กลับไปฝึกกับบอทก่อนเถอะ,Toxic,Normal,0.6923076923076923,0.3076923076923077,0.6923076923076923,False
+wrong_predictions,False Positive,,,,,ไอ้ทางซ้ายมีศัตรูสองตัว อย่าเดินคนเดียว,Normal,Toxic,0.3076923076923077,0.6923076923076923,0.6923076923076923,False
+wrong_predictions,False Positive,,,,,เกมนี้หนักแต่ไม่ถึงกับหมดหวัง,Normal,Toxic,0.3076923076923077,0.6923076923076923,0.6923076923076923,False
+wrong_predictions,False Positive,,,,,กูพลาดตำแหน่งเอง ไม่เกี่ยวกับทีม,Normal,Toxic,0.3076923076923077,0.6923076923076923,0.6923076923076923,False
+wrong_predictions,False Positive,,,,,ไม่เป็นไรจริง ๆ แพ้ไฟต์เดียวไม่จบเกม,Normal,Toxic,0.38461538461538464,0.6153846153846154,0.6153846153846154,False
+wrong_predictions,False Negative,,,,,ขอบคุณที่ทำให้ศัตรูมั่นใจขึ้น,Toxic,Normal,0.6153846153846154,0.38461538461538464,0.6153846153846154,False
+wrong_predictions,False Positive,,,,,เราเสียไฟต์นี้แต่ยังไม่เสียเกม,Normal,Toxic,0.38461538461538464,0.6153846153846154,0.6153846153846154,False
+wrong_predictions,False Positive,,,,,ไอ้จังหวะนี้เราควรรวมทีมมากกว่าแยกดัน,Normal,Toxic,0.38461538461538464,0.6153846153846154,0.6153846153846154,False
+wrong_predictions,False Negative,,,,,ขอบคุณที่ทำให้ไฟต์ง่ายขึ้นสำหรับอีกฝั่ง,Toxic,Normal,0.6153846153846154,0.38461538461538464,0.6153846153846154,False
+wrong_predictions,False Negative,,,,,ไม่ต้องแก้ตัว ฝีมือมันฟ้องอยู่แล้ว,Toxic,Normal,0.5384615384615384,0.46153846153846156,0.5384615384615384,False
+wrong_predictions,False Positive,,,,,ค่อย ๆ เล่นไป เกมยังไม่จบ,Normal,Toxic,0.46153846153846156,0.5384615384615384,0.5384615384615384,False
+wrong_predictions,False Negative,,,,,มึงควรดู replay แล้วอายตัวเองบ้าง,Toxic,Normal,0.5384615384615384,0.46153846153846156,0.5384615384615384,False
+wrong_predictions,False Positive,,,,,ดีมากที่ไม่ฝืนเข้าไฟต์นั้น,Normal,Toxic,0.46153846153846156,0.5384615384615384,0.5384615384615384,False
+wrong_predictions,False Negative,,,,,ไม่ต้องอธิบายแล้ว ผลงานมันชัดกว่าคำพูด,Toxic,Normal,0.5384615384615384,0.46153846153846156,0.5384615384615384,False
+wrong_predictions,False Negative,,,,,มึงทำให้แผนดี ๆ กลายเป็นเรื่องตลก,Toxic,Normal,0.5384615384615384,0.46153846153846156,0.5384615384615384,False
+high_confidence_wrong_predictions,False Negative,,,,,จะเข้าก็พัง จะถอยก็ช้า,Toxic,Normal,1.0,0.0,1.0,False
+high_confidence_wrong_predictions,False Negative,,,,,ปัญญาอ่อนปะ จังหวะนั้นยังเข้าอีก,Toxic,Normal,1.0,0.0,1.0,False
+high_confidence_wrong_predictions,False Positive,,,,,มึงไม่ต้องกดดันตัวเองมาก,Normal,Toxic,0.07692307692307693,0.9230769230769231,0.9230769230769231,False
+high_confidence_wrong_predictions,False Negative,,,,,ไม่ช่วยแล้วยังสร้างปัญหาอีก,Toxic,Normal,0.9230769230769231,0.07692307692307693,0.9230769230769231,False
+high_confidence_wrong_predictions,False Negative,,,,,ไอ้จังหวะนั้นควรคิดก่อนกดบ้าง,Toxic,Normal,0.8461538461538461,0.15384615384615385,0.8461538461538461,False
+high_confidence_wrong_predictions,False Positive,,,,,มึงมาเอาบัฟนี้ได้เลย กูไม่ใช้,Normal,Toxic,0.15384615384615385,0.8461538461538461,0.8461538461538461,False
+high_confidence_wrong_predictions,False Negative,,,,,มึงช่วยอยู่ตรงไหน ช่วยบอกที,Toxic,Normal,0.8461538461538461,0.15384615384615385,0.8461538461538461,False
+high_confidence_wrong_predictions,False Positive,,,,,คุมเกมดีแล้ว อย่าให้เขา bait,Normal,Toxic,0.15384615384615385,0.8461538461538461,0.8461538461538461,False
+high_confidence_wrong_predictions,False Positive,,,,,กูขอโทษนะเมื่อกี้กดสกิลพลาด,Normal,Toxic,0.15384615384615385,0.8461538461538461,0.8461538461538461,False
+high_confidence_wrong_predictions,False Negative,,,,,เล่นดีมาก ดีจน report อยากทำงาน,Toxic,Normal,0.8461538461538461,0.15384615384615385,0.8461538461538461,False
+high_confidence_wrong_predictions,False Positive,,,,,ไม่ไหวก็ถอยก่อน เดี๋ยวเสีย objective,Normal,Toxic,0.15384615384615385,0.8461538461538461,0.8461538461538461,False
+uncertain_cases,,,,,,ไม่ต้องแก้ตัว ฝีมือมันฟ้องอยู่แล้ว,Toxic,Normal,0.5384615384615384,0.46153846153846156,0.5384615384615384,False
+uncertain_cases,,,,,,ค่อย ๆ เล่นไป เกมยังไม่จบ,Normal,Toxic,0.46153846153846156,0.5384615384615384,0.5384615384615384,False
+uncertain_cases,,,,,,ดีมากที่ไม่ฝืนเข้าไฟต์นั้น,Normal,Toxic,0.46153846153846156,0.5384615384615384,0.5384615384615384,False
+uncertain_cases,,,,,,มึงควรดู replay แล้วอายตัวเองบ้าง,Toxic,Normal,0.5384615384615384,0.46153846153846156,0.5384615384615384,False
+uncertain_cases,,,,,,มึงทำให้แผนดี ๆ กลายเป็นเรื่องตลก,Toxic,Normal,0.5384615384615384,0.46153846153846156,0.5384615384615384,False
+uncertain_cases,,,,,,ไม่ต้องอธิบายแล้ว ผลงานมันชัดกว่าคำพูด,Toxic,Normal,0.5384615384615384,0.46153846153846156,0.5384615384615384,False
+uncertain_cases,,,,,,ไม่เป็นไรจริง ๆ แพ้ไฟต์เดียวไม่จบเกม,Normal,Toxic,0.38461538461538464,0.6153846153846154,0.6153846153846154,False
+uncertain_cases,,,,,,ขอบคุณที่ทำให้ศัตรูมั่นใจขึ้น,Toxic,Normal,0.6153846153846154,0.38461538461538464,0.6153846153846154,False
+uncertain_cases,,,,,,เราเสียไฟต์นี้แต่ยังไม่เสียเกม,Normal,Toxic,0.38461538461538464,0.6153846153846154,0.6153846153846154,False
+uncertain_cases,,,,,,ไอ้จังหวะนี้เราควรรวมทีมมากกว่าแยกดัน,Normal,Toxic,0.38461538461538464,0.6153846153846154,0.6153846153846154,False
+uncertain_cases,,,,,,ขอบคุณที่ทำให้ไฟต์ง่ายขึ้นสำหรับอีกฝั่ง,Toxic,Normal,0.6153846153846154,0.38461538461538464,0.6153846153846154,False
+uncertain_cases,,,,,,ค่อย ๆ ดัน ไม่ต้องเสี่ยงปิดเกมตอนนี้,Normal,Normal,0.5384615384615384,0.46153846153846156,0.5384615384615384,True
+uncertain_cases,,,,,,แจกไม่หยุดเลยนะ เก่งจริง,Toxic,Toxic,0.46153846153846156,0.5384615384615384,0.5384615384615384,True
+uncertain_cases,,,,,,สุดจัด เล่นให้เขาชนะง่ายขึ้น,Toxic,Toxic,0.46153846153846156,0.5384615384615384,0.5384615384615384,True
+uncertain_cases,,,,,,ไอ้ป้อมนี้ยังไม่ต้องตี รอ wave ก่อน,Normal,Normal,0.5384615384615384,0.46153846153846156,0.5384615384615384,True
+uncertain_cases,,,,,,ไม่ต้องเครียด เกมนี้ยังกลับมาได้,Normal,Normal,0.5384615384615384,0.46153846153846156,0.5384615384615384,True
+uncertain_cases,,,,,,นี่คือเล่นเต็มที่แล้วใช่ไหม,Toxic,Toxic,0.46153846153846156,0.5384615384615384,0.5384615384615384,True
+uncertain_cases,,,,,,ดีนะมีมึง เกมเลยท้าทายแบบไม่จำเป็น,Toxic,Toxic,0.46153846153846156,0.5384615384615384,0.5384615384615384,True
+uncertain_cases,,,,,,เล่นเหมือนเพิ่งเคยจับเมาส์,Toxic,Toxic,0.46153846153846156,0.5384615384615384,0.5384615384615384,True
+uncertain_cases,,,,,,เก่งมากเลยนะ ตายก่อนทุก objective,Toxic,Toxic,0.46153846153846156,0.5384615384615384,0.5384615384615384,True
+uncertain_cases,,,,,,ไม่ต้องรีบแก้ทุกอย่างในไฟต์เดียว,Normal,Normal,0.5384615384615384,0.46153846153846156,0.5384615384615384,True
+uncertain_cases,,,,,,เล่นเหมือนอ่านคู่มือกลับหัว,Toxic,Toxic,0.46153846153846156,0.5384615384615384,0.5384615384615384,True
+uncertain_cases,,,,,,ไม่ใช่ทุกคนควรกด ranked และมึงคือหลักฐาน,Toxic,Toxic,0.46153846153846156,0.5384615384615384,0.5384615384615384,True
+uncertain_cases,,,,,,อย่าโทษ lag เลย อันนี้ฝีมือ,Toxic,Toxic,0.46153846153846156,0.5384615384615384,0.5384615384615384,True
+uncertain_cases,,,,,,ยืนดูเพื่อนตายได้สงบมาก,Toxic,Toxic,0.46153846153846156,0.5384615384615384,0.5384615384615384,True
+uncertain_cases,,,,,,เหมือนไม่ได้คิดก่อนกดสกิลเลย,Toxic,Toxic,0.38461538461538464,0.6153846153846154,0.6153846153846154,True
+uncertain_cases,,,,,,ขอบคุณที่พิสูจน์ว่าทีมเราเล่นสี่คนก็จริง,Toxic,Toxic,0.38461538461538464,0.6153846153846154,0.6153846153846154,True
+uncertain_cases,,,,,,เรายังมีจังหวะสวนตอนเขาพลาด,Normal,Normal,0.6153846153846154,0.38461538461538464,0.6153846153846154,True
+uncertain_cases,,,,,,มึงเปิดดีแล้ว แต่ follow ไม่ทัน,Normal,Normal,0.6153846153846154,0.38461538461538464,0.6153846153846154,True
+uncertain_cases,,,,,,คุมเกมได้อยู่ แค่อย่ารีบปิด,Normal,Normal,0.6153846153846154,0.38461538461538464,0.6153846153846154,True
+uncertain_cases,,,,,,เดินไปให้เขาเก็บเหมือนมีภารกิจส่วนตัว,Toxic,Toxic,0.38461538461538464,0.6153846153846154,0.6153846153846154,True
+uncertain_cases,,,,,,สุดยอดมาก แจก kill พร้อมบริการถึงที่,Toxic,Toxic,0.38461538461538464,0.6153846153846154,0.6153846153846154,True
+uncertain_cases,,,,,,นี่ตั้งใจเล่นจริงไหม หรือแค่กดเข้ามาให้ครบคน,Toxic,Toxic,0.38461538461538464,0.6153846153846154,0.6153846153846154,True
+uncertain_cases,,,,,,ตัวเองพลาดแล้วยังจะโทษคนอื่นอีก,Toxic,Toxic,0.38461538461538464,0.6153846153846154,0.6153846153846154,True
+uncertain_cases,,,,,,ขอบคุณสำหรับ call เมื่อกี้,Normal,Normal,0.6153846153846154,0.38461538461538464,0.6153846153846154,True
+uncertain_cases,,,,,,มึงเก่งมาก เก่งเรื่องทำให้ทีมแพ้,Toxic,Toxic,0.38461538461538464,0.6153846153846154,0.6153846153846154,True
+uncertain_cases,,,,,,มีคนเดียวที่ทำให้แผนพัง และเขากำลังอ่านแชทนี้อยู่,Toxic,Toxic,0.38461538461538464,0.6153846153846154,0.6153846153846154,True
+uncertain_cases,,,,,,กูเห็นแล้วว่าเขาซุ่ม ไม่ต้องเข้า,Normal,Normal,0.6153846153846154,0.38461538461538464,0.6153846153846154,True
+uncertain_cases,,,,,,ไอ้ตัวนั้นใช้สกิลหนีไปแล้ว เข้าได้,Normal,Normal,0.6153846153846154,0.38461538461538464,0.6153846153846154,True
+uncertain_cases,,,,,,ฝั่งนั้นหายสามตัว อย่าแยกกันเดิน,Normal,Normal,0.6153846153846154,0.38461538461538464,0.6153846153846154,True
+uncertain_cases,,,,,,มึงลองไปดันข้าง เดี๋ยวทีมดึงเวลา,Normal,Normal,0.6153846153846154,0.38461538461538464,0.6153846153846154,True
+uncertain_cases,,,,,,เล่นดีขึ้นเยอะเลยนะ,Normal,Normal,0.6153846153846154,0.38461538461538464,0.6153846153846154,True
+uncertain_cases,,,,,,มึงควรเริ่มจาก tutorial ใหม่,Toxic,Toxic,0.38461538461538464,0.6153846153846154,0.6153846153846154,True
+uncertain_cases,,,,,,รอบนี้เขาอ่านเกมเราดีจริง,Normal,Normal,0.6153846153846154,0.38461538461538464,0.6153846153846154,True
