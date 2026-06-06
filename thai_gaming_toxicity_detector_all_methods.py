@@ -9,6 +9,9 @@ Original file is located at
 
 !pip install -q sentence-transformers
 
+# Install before running:
+# pip install sentence-transformers
+
 from google.colab import drive
 drive.mount('/content/drive')
 
@@ -108,39 +111,6 @@ def keyword_blacklist_predict(text):
     return "Normal"
 
 keyword_pred = [keyword_blacklist_predict(text) for text in unseen_texts]
-
-tfidf_log_model = LogisticRegression(
-    max_iter=2000,
-    class_weight="balanced"
-)
-
-tfidf_log_model.fit(X_train, y_train)
-
-tfidf_svm_model = LinearSVC(
-    class_weight="balanced",
-    max_iter=5000
-)
-
-tfidf_svm_model.fit(X_train, y_train)
-
-emb_log_model = LogisticRegression(
-    max_iter=2000,
-    class_weight="balanced"
-)
-
-unseen_dataset_path = "/content/drive/MyDrive/AI_Builder/thai_gaming_toxic_unseen_test_clean_244.csv"
-
-unseen_df = pd.read_csv(unseen_dataset_path)
-
-unseen_df = unseen_df.dropna(subset=["text", "label"]).copy()
-unseen_df["text"] = unseen_df["text"].astype(str).str.strip()
-unseen_df["label"] = unseen_df["label"].astype(str).str.strip()
-
-unseen_texts = unseen_df["text"].tolist()
-unseen_labels = unseen_df["label"].tolist()
-
-print("Total rows:", len(unseen_df))
-print(unseen_df["label"].value_counts())
 
 embedder = SentenceTransformer(
     "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
