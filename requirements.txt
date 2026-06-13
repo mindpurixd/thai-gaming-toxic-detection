@@ -1,0 +1,8 @@
+pandas
+numpy
+scikit-learn
+sentence-transformers
+discord.py
+
+#ถ้าใช้โค้ด all_methods.py ให้เพิ่ม
+tensordflow
