@@ -41,16 +41,6 @@ print("len(labels):", len(labels))
 
 df.head()
 
-X_train_text, X_test_text, y_train, y_test = train_test_split(
-    texts,
-    labels,
-    test_size=0.3,
-    random_state=42,
-    stratify=labels
-)
-
-print("Train size:", len(X_train_text))
-print("Test size:", len(X_test_text))
 
 unseen_path = "/content/drive/MyDrive/AI_Builder/thai_gaming_toxic_unseen_test_clean_244.csv"
 
@@ -102,7 +92,7 @@ knn13_model = KNeighborsClassifier(
 knn13_model.fit(X_train_emb, y_train)
 
 knn13_pred = knn13_model.predict(X_unseen_emb)
-knn13_proba = knn13_model.predict_proba(X_unseen_emb)
+
 
 print("=== Final Model: Sentence Embedding MiniLM + KNN13 ===")
 print("Accuracy:", accuracy_score(unseen_labels, knn13_pred))
