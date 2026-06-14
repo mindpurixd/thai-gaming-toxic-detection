@@ -52,16 +52,6 @@ print("len(labels):", len(labels))
 
 df.head()
 
-X_train_text, X_test_text, y_train, y_test = train_test_split(
-    texts,
-    labels,
-    test_size=0.3,
-    random_state=42,
-    stratify=labels
-)
-
-print("Train size:", len(X_train_text))
-print("Test size:", len(X_test_text))
 
 vectorizer = TfidfVectorizer(
     analyzer="char",
@@ -116,17 +106,7 @@ embedder = SentenceTransformer(
     "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 )
 
-X_train_emb = embedder.encode(
-    X_train_text,
-    show_progress_bar=True,
-    convert_to_numpy=True
-)
 
-X_test_emb = embedder.encode(
-    X_test_text,
-    show_progress_bar=True,
-    convert_to_numpy=True
-)
 
 X_unseen_emb = embedder.encode(
     unseen_texts,
